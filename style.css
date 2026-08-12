@@ -119,3 +119,79 @@ footer {
     font-size: 1.5rem;
   }
 }
+.artigo {
+  width: min(780px, 90%);
+  margin: 0 auto;
+  padding: 60px 0 80px;
+}
+
+.voltar {
+  display: inline-block;
+  margin-bottom: 40px;
+  color: #d7bd78;
+  text-decoration: none;
+}
+
+.voltar:hover {
+  color: #fff1bf;
+  text-decoration: underline;
+}
+
+.artigo article {
+  padding: clamp(24px, 5vw, 56px);
+  background: #181713;
+  border: 1px solid #4d462f;
+}
+
+.categoria {
+  margin: 0 0 12px;
+  color: #c7aa62;
+  font-size: 0.85rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.artigo h1 {
+  margin-bottom: 12px;
+  text-align: left;
+  font-size: clamp(2rem, 5vw, 3.3rem);
+}
+
+.data {
+  margin: 0 0 42px;
+  color: #8f8775;
+  font-size: 0.9rem;
+}
+
+.artigo h2 {
+  margin: 54px 0 20px;
+  color: #d7bd78;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.artigo h3 {
+  margin: 34px 0 12px;
+  color: #d7bd78;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.artigo article p {
+  margin: 0 0 20px;
+  color: #d0c8b5;
+  font-size: 1.08rem;
+  line-height: 1.85;
+}
+.ler-artigo {
+  display: inline-block;
+  margin-top: 20px;
+  color: #d7bd78;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.ler-artigo:hover {
+  color: #fff1bf;
+  text-decoration: underline;
+}
