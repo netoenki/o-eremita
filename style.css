@@ -195,3 +195,41 @@ footer {
   color: #fff1bf;
   text-decoration: underline;
 }
+/* Tabela — Uma Árvore, Quatro Mundos */
+.tabela-artigo {
+    margin: 2rem 0;
+    overflow-x: auto;
+}
+
+.tabela-artigo table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.tabela-artigo th,
+.tabela-artigo td {
+    padding: 0.8rem 0.9rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(215, 189, 120, 0.25);
+}
+
+.tabela-artigo th {
+    color: #d7bd78;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(215, 189, 120, 0.55);
+}
+
+.tabela-artigo td {
+    color: #e8e1cf;
+}
+
+.tabela-artigo tbody tr:hover {
+    background: rgba(215, 189, 120, 0.06);
+}
+
+@media (max-width: 700px) {
+    .tabela-artigo table {
+        min-width: 650px;
+    }
+}
