@@ -36,7 +36,8 @@
     { titulo: "Confessio Fraternitatis", tema: "Manuscritos", url: "confessio-fraternitatis.html" },
     { titulo: "As Núpcias Alquímicas de Christian Rosenkreutz", tema: "Manuscritos", url: "nupcias-alquimicas-christian-rosenkreutz.html" },
     { titulo: "O que nos torna especiais para os outros?", tema: "Biblioteca", url: "o-que-nos-torna-especiais.html" },
-    { titulo: "AVÔHAI", tema: "Biblioteca", url: "avohai.html" }
+    { titulo: "AVÔHAI", tema: "Biblioteca", url: "avohai.html" },
+    { titulo: "Aprender a Amar a Nossa Própria Companhia", tema: "Biblioteca", url: "aprender-a-amar-a-nossa-propria-companhia.html" }
   ];
 
   function normalizar(texto) {

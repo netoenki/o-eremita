@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#07131b">
   <meta name="description" content="Um espaço dedicado à investigação de símbolos, tradições, manuscritos e caminhos do conhecimento.">
   <title>O Eremita — Símbolos, Mistérios e Sabedoria</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home.css">
 </head>
 <body>
   <header class="site-header">
@@ -32,6 +32,7 @@
       <a href="#maconaria"><span>⚒</span> Maçonaria</a>
       <a href="#hermetismo"><span>✣</span> Hermetismo</a>
       <a href="#cabala"><span>۞</span> Cabala</a>
+      <a href="#tarot"><span>✶</span> Tarot</a>
       <a href="#simbolismo"><span>◉</span> Simbolismo</a>
       <a href="#manuscritos"><span>▤</span> Manuscritos</a>
       <a href="#biblioteca"><span>▣</span> Biblioteca</a>
@@ -51,12 +52,13 @@
     </section>
 
     <section class="topic-grid" aria-label="Explore os temas">
-      <a class="topic-card" id="maconaria" href="o-observador.html"><span class="topic-icon">⚒</span><strong>Maçonaria</strong><small>História · Graus · Símbolos</small></a>
-      <a class="topic-card" id="hermetismo" href="universo-que-se-observa.html"><span class="topic-icon">☤</span><strong>Hermetismo</strong><small>Corpus · Alquimia · Filosofia</small></a>
-      <a class="topic-card" id="cabala" href="primeiro-artigo.html"><span class="topic-icon">۞</span><strong>Cabala</strong><small>Sefirot · Zohar · Yetzirah</small></a>
-      <a class="topic-card" id="simbolismo" href="tetraktys-pitagoras.html"><span class="topic-icon">◉</span><strong>Simbolismo</strong><small>Números · Geometria · Mitologia</small></a>
-      <a class="topic-card" id="manuscritos" href="fama-fraternitatis.html"><span class="topic-icon">▱</span><strong>Manuscritos</strong><small>Regius · Cooke · Dowland</small></a>
-      <a class="topic-card" id="biblioteca" href="o-que-nos-torna-especiais.html"><span class="topic-icon">▤</span><strong>Biblioteca</strong><small>Livros · Documentos · PDFs</small></a>
+      <a class="topic-card" href="#maconaria"><span class="topic-icon">⚒</span><strong>Maçonaria</strong><small>História · Graus · Símbolos</small></a>
+      <a class="topic-card" href="#hermetismo"><span class="topic-icon">☤</span><strong>Hermetismo</strong><small>Corpus · Alquimia · Filosofia</small></a>
+      <a class="topic-card" href="#cabala"><span class="topic-icon">۞</span><strong>Cabala</strong><small>Sefirot · Zohar · Yetzirah</small></a>
+      <a class="topic-card" href="#tarot"><span class="topic-icon">✶</span><strong>Tarot</strong><small>Arcanos · Símbolos · Cabala</small></a>
+      <a class="topic-card" href="#simbolismo"><span class="topic-icon">◉</span><strong>Simbolismo</strong><small>Números · Geometria · Mitologia</small></a>
+      <a class="topic-card" href="#manuscritos"><span class="topic-icon">▱</span><strong>Manuscritos</strong><small>Regius · Cooke · Dowland</small></a>
+      <a class="topic-card" href="#biblioteca"><span class="topic-icon">▤</span><strong>Biblioteca</strong><small>Livros · Documentos · PDFs</small></a>
     </section>
 
     <section class="home-content" aria-label="Artigos e informações">
@@ -79,7 +81,7 @@
         <a class="recent-item" href="fama-fraternitatis.html"><span class="recent-thumb manuscript">▱</span><span><strong>Fama Fraternitatis</strong><small>O manifesto rosacruz e seu chamado ao conhecimento.</small><em>Manuscritos · História</em></span></a>
         <a class="recent-item" href="o-caibalion-e-a-tradicao-hermetica.html"><span class="recent-thumb hermes">☤</span><span><strong>O Caibalion e a Tradição Hermética</strong><small>Princípios, ensinamentos e tradição.</small><em>Hermetismo · Filosofia</em></span></a>
         <a class="recent-item" href="primeiro-artigo.html"><span class="recent-thumb tree">۞</span><span><strong>O Livro de Jó sob a Ótica do Sod</strong><small>Leituras e correspondências da Cabala.</small><em>Cabala · Simbolismo</em></span></a>
-        <a class="all-articles" href="#biblioteca">Explorar a biblioteca <span>→</span></a>
+        <a class="all-articles" href="#artigos">Ver todos os artigos <span>→</span></a>
       </div>
 
       <aside class="sidebar" id="sobre">
@@ -96,13 +98,68 @@
         </section>
       </aside>
     </section>
+    <section class="catalogo" id="artigos" aria-label="Todos os artigos">
+      <h2 class="section-heading"><span>✥</span> Todos os artigos</h2>
+      <div class="catalogo-grid">
+
+        <article id="maconaria">
+          <h3>Maçonaria</h3>
+          <p>Ritos, símbolos, história e tradições maçônicas.</p>
+          <a class="ler-artigo" href="o-observador.html">Ler: O Observador →</a>
+        </article>
+
+        <article id="hermetismo">
+          <h3>Hermetismo</h3>
+          <p>Princípios, textos e caminhos da tradição hermética.</p>
+          <a class="ler-artigo" href="universo-que-se-observa.html">Ler: O Universo que se Observa →</a>
+          <a class="ler-artigo" href="o-caibalion-e-a-tradicao-hermetica.html">Ler: O Caibalion e a Tradição Hermética →</a>
+        </article>
+
+        <article id="cabala">
+          <h3>Cabala</h3>
+          <p>Estudos sobre a Árvore da Vida, letras e correspondências.</p>
+          <a class="ler-artigo" href="primeiro-artigo.html">Ler: O Livro de Jó sob a Ótica do Sod →</a>
+        </article>
+
+        <article id="tarot">
+          <h3>Tarot</h3>
+          <p>História, símbolos, Arcanos e caminhos de leitura do Tarot, entre a tradição e a Cabala Hermética.</p>
+          <a class="ler-artigo" href="tarot.html">Ler: O Tarot — Entre a História, o Símbolo e a Cabala Hermética →</a>
+          <a class="ler-artigo" href="o-principe-e-a-princesa-no-tarot.html">Ler: O Príncipe e a Princesa no Tarot →</a>
+        </article>
+
+        <article id="simbolismo">
+          <h3>Simbolismo</h3>
+          <p>Imagens, arquétipos e sentidos ocultos nas tradições humanas.</p>
+          <a class="ler-artigo" href="tetraktys-pitagoras.html">🔺 Ler: A Tetraktys de Pitágoras — Cabala, Geometria Sagrada e Ciência →</a>
+        </article>
+
+        <article id="manuscritos">
+          <h3>Manuscritos</h3>
+          <p>Documentos, obras antigas e vestígios do conhecimento.</p>
+          <a class="ler-artigo" href="os-antigos-landmarks-da-maconaria.html">Ler: Os Antigos Landmarks da Maçonaria →</a>
+          <a class="ler-artigo" href="fama-fraternitatis.html">🌹 Ler: Fama Fraternitatis — O Manifesto Rosacruz →</a>
+          <a class="ler-artigo" href="confessio-fraternitatis.html">🌹 Ler: Confessio Fraternitatis — A Confissão Rosacruz →</a>
+          <a class="ler-artigo" href="nupcias-alquimicas-christian-rosenkreutz.html">🔮 Ler: As Núpcias Alquímicas de Christian Rosenkreutz →</a>
+        </article>
+
+        <article id="biblioteca">
+          <h3>Biblioteca</h3>
+          <p>Leituras, referências e materiais para aprofundar a busca.</p>
+          <a class="ler-artigo" href="o-que-nos-torna-especiais.html">O que nos torna especiais para os outros?</a>
+          <a class="ler-artigo" href="avohai.html">Ler: AVÔHAI →</a>
+          <a class="ler-artigo" href="aprender-a-amar-a-nossa-propria-companhia.html">Ler: Aprender a Amar a Nossa Própria Companhia →</a>
+        </article>
+
+      </div>
+    </section>
   </main>
 
   <section class="quote-banner"><p>“O verdadeiro conhecimento começa<br>quando reconhecemos o quanto ainda ignoramos.”<br><span>— O Eremita</span></p></section>
 
   <footer class="site-footer">
     <div class="footer-brand"><span class="brand-mark small-mark">☼</span><span><strong>O EREMITA</strong><em>Caminhando entre símbolos, histórias e mistérios.</em></span></div>
-    <nav aria-label="Links do rodapé"><a href="#inicio">Início</a><a href="#biblioteca">Artigos</a><a href="#biblioteca">Biblioteca</a><a href="#sobre">Sobre</a></nav>
+    <nav aria-label="Links do rodapé"><a href="#inicio">Início</a><a href="#artigos">Artigos</a><a href="#biblioteca">Biblioteca</a><a href="#sobre">Sobre</a></nav>
     <p>© 2026 O Eremita. Um buscador, nada mais.</p>
   </footer>
   <script src="script.js"></script>
